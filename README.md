@@ -4,10 +4,6 @@ An Pytorch Implementation of the paper [https://www.es.mdh.se/pdf_publications/6
 If you find any part of our code useful for your research, consider citing our paper.
 
 ```
-# code block
-print '3 backticks or'
-print 'indent 4 spaces'
-```
 @inproceedings{loni2022tas,
   title={TAS: Ternarized Neural Architecture Search for Resource-Constrained Edge Devices},
   author={Loni, Mohammad and Mousavi, Hamid and Riazati, Mohammad and Daneshtalab, Masoud and Sj{\"o}din, Mikael},
@@ -16,5 +12,7 @@ print 'indent 4 spaces'
   year={2022},
   organization={IEEE}
 } 
+
+```
 
 

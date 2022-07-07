@@ -24,4 +24,4 @@ To search architectures, use the following command.
 ```
 python src/search.py --save [ARCH_NAME]
 ```
-*list [ARCH_NAME]: the name of the searched architecture
+* list [ARCH_NAME]: the name of the searched architecture

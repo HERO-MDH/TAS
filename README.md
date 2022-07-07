@@ -13,6 +13,12 @@ If you find any part of our code useful for your research, consider citing our p
   organization={IEEE}
 } 
 ```
+# Authors
+* Mohammad Loni [http://www.es.mdh.se/staff/3662-Mohammad_Loni]
+* Hamid Mousavi [https://hamidmousavi0.github.io/]
+* Mohammad Riazati
+* Masoud Daneshtalab
+
 # Intoduction 
 we propose (i) a new cell template for ternary networks with maximum gradient
 propagation; and (ii) a novel learnable quantizer that adaptively

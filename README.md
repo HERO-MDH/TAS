@@ -35,3 +35,7 @@ train our best searched cell on ImageNet, use the following command.
 ```
 python src/train_imagenet.py --data [PATH_TO_IMAGENET] --arch TER_ARCH_In_GENOTYPE --model_config [MODEL_CONFIG] --save [SAVE_NAME]
 ```
+# Contributors
+
+Some of the code in this repository is based on the following amazing works.
+* [https://github.com/gistvision/bnas]

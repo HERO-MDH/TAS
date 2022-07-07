@@ -29,11 +29,11 @@ python src/search.py --save [ARCH_NAME]
 # Training Searched Architectures from scratch
  train our best searched cell on CIFAR10, use the following command.
 ```
-python src/train.py --learning_rate 0.05 --save [SAVE_NAME] --arch TER_ARCH_In_GENOTYPE --parallel 
+python Src/train.py --learning_rate 0.05 --save [SAVE_NAME] --arch TER_ARCH_In_GENOTYPE --parallel 
 ```
 train our best searched cell on ImageNet, use the following command.
 ```
-python src/train_imagenet.py --data [PATH_TO_IMAGENET] --arch TER_ARCH_In_GENOTYPE --model_config [MODEL_CONFIG] --save [SAVE_NAME]
+python Src/train_imagenet.py --data [PATH_TO_IMAGENET] --arch TER_ARCH_In_GENOTYPE --model_config [MODEL_CONFIG] --save [SAVE_NAME]
 ```
 # Contributors
 

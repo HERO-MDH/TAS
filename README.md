@@ -12,7 +12,10 @@ If you find any part of our code useful for your research, consider citing our p
   year={2022},
   organization={IEEE}
 } 
-
 ```
-
+# Intoduction 
+we propose (i) a new cell template for ternary networks with maximum gradient
+propagation; and (ii) a novel learnable quantizer that adaptively
+relaxes the ternarization mechanism from the distribution of the
+weights and activation function
 

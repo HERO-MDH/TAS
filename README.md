@@ -19,3 +19,8 @@ propagation; and (ii) a novel learnable quantizer that adaptively
 relaxes the ternarization mechanism from the distribution of the
 weights and activation function
 
+# Searching Architectures
+To search architectures, use the following command.
+```
+python src/search.py --save [ARCH_NAME]
+```

@@ -16,32 +16,32 @@ If you find any part of our code useful for your research, consider citing our p
 # Authors
 * Mohammad Loni [http://www.es.mdh.se/staff/3662-Mohammad_Loni]
 * Hamid Mousavi [https://hamidmousavi0.github.io/]
-* Mohammad Riazati
-* Masoud Daneshtalab
+* Mohammad Riazati [http://www.es.mdh.se/staff/4020-Mohammad_Riazati]
+* Masoud Daneshtalab [http://www.es.mdh.se/staff/3303-Masoud_Daneshtalab]
 
 # Intoduction 
-we propose (i) a new cell template for ternary networks with maximum gradient
+We propose (i) a new cell template for ternary networks with maximum gradient
 propagation; and (ii) a novel learnable quantizer that adaptively
 relaxes the ternarization mechanism from the distribution of the
-weights and activation function
+weights and activation function.
 
 # Searching Architectures
-To search architectures, use the following command.
+To search architectures, use the following command:
 ```
 python src/search.py --save [ARCH_NAME]
 ```
 *  [ARCH_NAME]: the name of the searched architecture
 
-# Training Searched Architectures from scratch
- train our best searched cell on CIFAR10, use the following command.
+# Training Searched Architectures from Scratch
+Train our best searched cell on CIFAR10, use the following command:
 ```
 python Src/train.py --learning_rate 0.05 --save [SAVE_NAME] --arch TER_ARCH_In_GENOTYPE --parallel 
 ```
-train our best searched cell on ImageNet, use the following command.
+Train our best searched cell on ImageNet, use the following command:
 ```
 python Src/train_imagenet.py --data [PATH_TO_IMAGENET] --arch TER_ARCH_In_GENOTYPE --model_config [MODEL_CONFIG] --save [SAVE_NAME]
 ```
 # Contributors
 
-Some of the code in this repository is based on the following amazing works.
+Some of the code in this repository is based on the following amazing works:
 * [https://github.com/gistvision/bnas]

@@ -41,6 +41,10 @@ Train our best searched cell on ImageNet, use the following command:
 ```
 python Src/train_imagenet.py --data [PATH_TO_IMAGENET] --arch TER_ARCH_In_GENOTYPE --model_config [MODEL_CONFIG] --save [SAVE_NAME]
 ```
+# Convert To Keras 
+The model is saved in PyTorch format "model.pt". To convert the model to Keras, you can use the following tools:
+* [https://github.com/gmalivenko/pytorch2keras]
+* [https://medium.com/analytics-vidhya/pytorch-to-keras-using-onnx-71d98258ad76]
 # Contributors
 
 Some of the code in this repository is based on the following amazing works:
